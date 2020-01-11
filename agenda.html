@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Estilo.css">
+	<script type="text/javascript" src="funciones.js"></script>
+</head>
+<body onload="iniciar(loggedform)">
+<div >
+	<br><br><br>
+</div>
+<form name="loggedform">
+	<table border="0" width="295" cellspacing="2" cellpadding="0" align="center">
+		<tr>
+			<td class="Encabezado">Entrada de Alumnos</td>
+		</tr>
+		<tr><td class="Elemento" align="center">
+				<table cellpadding="0" cellspacing="0">
+					<tr><td>Nombre:</td><td><input type="text" name="nombre"  autofocus="" /></td></tr>
+					<tr><td>Email:</td><td><input type="text" name="email" /></td></tr>
+					<tr><td>Telefono:</td><td><input type="text" name="telefono" /></td></tr>
+					<tr><td>Notas:</td><td><input type="text" name="notas" /></td></tr>
+					<tr><td colspan="2">
+					<br>
+					<center>
+					<table>
+					<tr>
+						<td><img src="Imagenes/add.png" onclick="nuevo(loggedform)" title="Nuevo" name="Nuevo" /></td>
+						<td><img src="Imagenes/IC1.png" onclick="guardar(loggedform)" title="Guardar" name="Guardar" /></td>
+						<td><img src="Imagenes/delete.png" onclick="borrar(loggedform)" title="Borrar" name="Borrar" /></td>
+						<td><img src="Imagenes/file.png" onclick="buscar(loggedform)" title="Buscar" name="Buscar" /></td>
+						</tr>
+						<tr>
+						<td><img src="Imagenes/IC41.png" onclick="recorrer(loggedform,this.name)" title="Primero" name="Primero" /></td>
+						<td><img src="Imagenes/left_arrow.png" onclick="recorrer(loggedform,this.name)" title="Anterior" name="Anterior" /></td>
+						<td><img src="Imagenes/right_arrow.png" onclick="recorrer(loggedform,this.name)" title="Siguiente" name="Siguiente" /  ></td>
+						<td><img src="Imagenes/IC71.png" onclick="recorrer(loggedform,this.name)" title="Ultimo" name="Ultimo" /></td>
+						</tr>
+						</table>
+						</center>
+					</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</form>
+<div>
+	<br><br><br>
+</div>
+</body>
+</html>

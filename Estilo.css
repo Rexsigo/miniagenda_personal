@@ -1,0 +1,57 @@
+*{
+	background: blue;
+}
+.Encabezado{
+	background-color: #652FED;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	height: 15px;
+	color: white;
+	text-align: center;
+    font-size: 20px
+}
+
+
+.Elemento table {
+	border-style: none;
+	border-width: 0px;
+	font-size: 20px; ;
+	font-family: Lucida Bright,arial;
+	text-align: center;
+    font-size: 20px;
+
+
+}
+
+
+input{
+	
+	color: black;
+	font-family: Lucida Bright,arial;
+	text-align: center;
+font-size: 20px
+}
+
+
+.Encabezado, .Elemento table, .Elemento table tr td, .Elemento table tr td input[type="text"]{
+	border-collapse: collapse;
+	border-spacing: 0px;
+
+	padding: 0px;
+}
+.Elemento{
+	background-color:#8792F9;
+	
+	border-width: 1px;
+	font-family: arial;
+	font-size: 12px;
+	height: 150px;
+	padding: 3px;
+	color: black;
+}
+.Elemento table tr td{
+	height: 35px;
+}
